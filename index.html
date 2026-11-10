@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="one" class="back">
+        hello world
+    </div>
+    <div id="yow"></div>
+    <button id="button1">
+        text size
+    </button>
+     <button id="button2">
+        bkg color
+    </button>
+
+    <script>
+        button1.addEventListener("click", pooping);
+
+        let fSize;
+        let wording;
+        function pooping() {
+            one.textContent = "hellooooo world!";
+            
+            fSize=Math.random()*100;
+            one.style.fontSize= fSize+"px";
+
+             if (fSize > 35){
+            wording="wow thats some big text!";
+            }
+            else{
+                wording = "hmm..."
+            }
+        document.getElementById("yow").innerHTML = wording;
+        }
+
+         button2.addEventListener("click", bkgchange);
+
+        function bkgchange() {
+           
+            
+           one.classList.toggle('back');
+        }
+        
+
+       
+        
+               
+    </script>
+</body>
+</html>

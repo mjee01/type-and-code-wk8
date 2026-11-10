@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: lightblue;
+    font-size: 20px;
+}
+#one{
+    
+    text-align:center;
+}
+.back{
+    background-color: yellow;
+}
+#button1{
+    background-color: red;
+}
+#button2{
+    color:blue;
+}
